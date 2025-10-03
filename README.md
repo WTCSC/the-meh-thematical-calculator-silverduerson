@@ -17,6 +17,27 @@ Pick an operation. Options are: +, -, *, /
 Which one do you want? +
 Yeah, the answer is 20. Happy now?
 
+## Decision Tree
+Start
+│
+├── Print welcome message
+│
+├── Ask for user name → print snarky response
+│
+├── Ask for num1
+│
+├── Ask for num2
+│
+├── Ask for operation (+, -, *, /)
+│
+└── Decision:
+    ├── If "+" → call add(a, b) → print result
+    ├── If "-" → call subtract(a, b) → print result
+    ├── If "*" → call multiply(a, b) → print result
+    └── If "/" 
+         ├── If b == 0 → print "I don’t think you can do that smart guy"
+         └── Else → call divide(a, b) → print result
+
 ## Usage
 
 Run the script:
