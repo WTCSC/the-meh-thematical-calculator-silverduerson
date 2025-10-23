@@ -46,5 +46,21 @@ Start
 
 Run the script:
 
-```bash
-python calculator.py
+`bash
+python calculator.py`
+
+### Testing
+
+To ensure the calculator works as expected, a test script has been created. It automatically checks the core operations and edge cases like division by zero.  
+
+**Run the tests:**
+
+`bash
+python test_calculator.py`
+
+### Example outpuy
+
+9 passed in 11.72s
+
+
+
